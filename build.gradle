@@ -12,11 +12,11 @@ apply plugin: 'android-library'
 
 android {
     compileSdkVersion 17
-    buildToolsVersion = '18.1'
+    buildToolsVersion = '21.1.2'
 
     sourceSets {
         defaultConfig {
-            testPackageName 'com.android.volley.tests'
+//            testPackageName 'com.android.volley.tests'
         }
 
         main {
